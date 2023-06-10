@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import {Legend} from './components/Legend'
+import {Legend} from './components/Top/Legend'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
 
@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 )
 root.render(
   <React.StrictMode>
-    <Legend/>
+    <Legend feature={''} firstAction={''} secondAction={''}/>
   </React.StrictMode>
 )
 
